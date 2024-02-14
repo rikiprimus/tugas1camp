@@ -1,0 +1,15 @@
+Reverse Words
+
+1. Mulai
+2. Masukan kalimat
+3. Buat variabel string kosong kata, dan kalimatTerbalik
+4. Buat varibel i = 0 sebagai index awal
+5. Buat perulangan dimana i < jumlah kalimat
+6. Disetiap perulangan lakukan perbandingan dimana kalimat[i] != " "
+7. Jika kata pada index i dari kalimat bukan spasi, maka tambahkan huruf sesuai index i pada kalimat ke variabel kata
+8. Jika kata pada index i dari kalimat adalah spasi, maka tambahkan kata yang sudah dibentuk, spasi dan kalimatTerbalik(bila ada) ke variabel kalimatTerbalik
+9. Lalu kosongkan variabel kata untuk simpan kata berikutnya
+10. Lakukan iterasi di setiap perulangan dengan i=i+1
+11. Setelah keluar dari perulangan, tambahkan kata terakhir yang didapat ke variabel kalimatTerbalik
+12. Lalu cetak variabel kalimatTerbalik
+13. Selesai

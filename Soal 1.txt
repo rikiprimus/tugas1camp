@@ -1,0 +1,13 @@
+Algoritma Palindrome
+
+1. Mulai
+2. Masukan kata
+3. Buat variabel (i = 0) sebagai index 0, (j = jumlahkata - 1) sebagai index kata terakhir, dan (kataPalindrome = true) sebagai variabel penentu
+4. Buat perulangan dimana kondisinya (i < j)
+5. Dalam setiap perulangan lakukan iterasi i = i + 1 dan j = j - 1
+6. Dalam perulangan cek perbandingan kata[i] != kata[j], 
+7. Bila kondisi bernilai true maka variabel kataPalindrome = false dan akan keluar perulangan,
+8. Setelah mendapatkan hasil akhir variabel kataPalindrome kita buat perbandingan apakah kataPalindrome memiliki value true atau tidak
+9. Bila kondisi bernilai true maka cetak "ini adalah Palindrome"
+10. Bila kondisi bernilai false maka cetak "ini bukan Palindrome"
+11. Selesai
